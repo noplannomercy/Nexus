@@ -8,3 +8,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 EXPOSE 8005 8006
+
+CMD ["python", "run_api.py"]
