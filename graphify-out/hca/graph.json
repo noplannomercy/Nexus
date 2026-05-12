@@ -1,0 +1,380 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "hca_loan_eval.py",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L1",
+      "id": "hca_loan_eval_py",
+      "community": 0,
+      "norm_label": "hca_loan_eval.py"
+    },
+    {
+      "label": "CreditGrade",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L10",
+      "id": "hca_hca_loan_eval_creditgrade",
+      "community": 0,
+      "norm_label": "creditgrade"
+    },
+    {
+      "label": "Enum",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "enum",
+      "community": 0,
+      "norm_label": "enum"
+    },
+    {
+      "label": "ApprovalStatus",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L18",
+      "id": "hca_hca_loan_eval_approvalstatus",
+      "community": 0,
+      "norm_label": "approvalstatus"
+    },
+    {
+      "label": "LoanApplication",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L25",
+      "id": "hca_hca_loan_eval_loanapplication",
+      "community": 0,
+      "norm_label": "loanapplication"
+    },
+    {
+      "label": "EvaluationResult",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L34",
+      "id": "hca_hca_loan_eval_evaluationresult",
+      "community": 1,
+      "norm_label": "evaluationresult"
+    },
+    {
+      "label": "calculate_credit_grade()",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L44",
+      "id": "hca_hca_loan_eval_calculate_credit_grade",
+      "community": 1,
+      "norm_label": "calculate_credit_grade()"
+    },
+    {
+      "label": "get_dti_limit()",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L58",
+      "id": "hca_hca_loan_eval_get_dti_limit",
+      "community": 3,
+      "norm_label": "get_dti_limit()"
+    },
+    {
+      "label": "calculate_dti()",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L83",
+      "id": "hca_hca_loan_eval_calculate_dti",
+      "community": 2,
+      "norm_label": "calculate_dti()"
+    },
+    {
+      "label": "determine_approval()",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L90",
+      "id": "hca_hca_loan_eval_determine_approval",
+      "community": 4,
+      "norm_label": "determine_approval()"
+    },
+    {
+      "label": "LoanEvaluationService",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L108",
+      "id": "hca_hca_loan_eval_loanevaluationservice",
+      "community": 1,
+      "norm_label": "loanevaluationservice"
+    },
+    {
+      "label": ".evaluate()",
+      "file_type": "code",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L111",
+      "id": "hca_hca_loan_eval_loanevaluationservice_evaluate",
+      "community": 1,
+      "norm_label": ".evaluate()"
+    },
+    {
+      "label": "HCA \uc5ec\uc2e0\uc2ec\uc0ac \ud575\uc2ec \ub85c\uc9c1 \u2014 LoanEvaluationService \uc2e0\uc6a9\ub4f1\uae09 \uc0b0\ucd9c, DTI \uac80\uc99d, \uc2b9\uc778 \uacbd\ub85c \uacb0\uc815",
+      "file_type": "rationale",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L1",
+      "id": "hca_hca_loan_eval_rationale_1",
+      "community": 0,
+      "norm_label": "hca \u110b\u1167\u1109\u1175\u11ab\u1109\u1175\u11b7\u1109\u1161 \u1112\u1162\u11a8\u1109\u1175\u11b7 \u1105\u1169\u110c\u1175\u11a8 \u2014 loanevaluationservice \u1109\u1175\u11ab\u110b\u116d\u11bc\u1103\u1173\u11bc\u1100\u1173\u11b8 \u1109\u1161\u11ab\u110e\u116e\u11af, dti \u1100\u1165\u11b7\u110c\u1173\u11bc, \u1109\u1173\u11bc\u110b\u1175\u11ab \u1100\u1167\u11bc\u1105\u1169 \u1100\u1167\u11af\u110c\u1165\u11bc"
+    },
+    {
+      "label": "\uc18c\ub4dd \uad6c\uac04 + \uc2e0\uc6a9\ub4f1\uae09 \uae30\ubc18 DTI \ud55c\ub3c4 \ubc18\ud658.     \uc5f0\uc18c\ub4dd 7\ucc9c\ub9cc\uc6d0 \ucd08\uacfc \u2192 \uc6b0\ub300 \ud55c\ub3c4 \uc801\uc6a9 (\uc815\ud655\ud788 7\ucc9c\ub9cc\uc6d0\uc740 \uc77c\ubc18 \uae30\uc900).",
+      "file_type": "rationale",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L59",
+      "id": "hca_hca_loan_eval_rationale_59",
+      "community": 3,
+      "norm_label": "\u1109\u1169\u1103\u1173\u11a8 \u1100\u116e\u1100\u1161\u11ab + \u1109\u1175\u11ab\u110b\u116d\u11bc\u1103\u1173\u11bc\u1100\u1173\u11b8 \u1100\u1175\u1107\u1161\u11ab dti \u1112\u1161\u11ab\u1103\u1169 \u1107\u1161\u11ab\u1112\u116a\u11ab.     \u110b\u1167\u11ab\u1109\u1169\u1103\u1173\u11a8 7\u110e\u1165\u11ab\u1106\u1161\u11ab\u110b\u116f\u11ab \u110e\u1169\u1100\u116a \u2192 \u110b\u116e\u1103\u1162 \u1112\u1161\u11ab\u1103\u1169 \u110c\u1165\u11a8\u110b\u116d\u11bc (\u110c\u1165\u11bc\u1112\u116a\u11a8\u1112\u1175 7\u110e\u1165\u11ab\u1106\u1161\u11ab\u110b\u116f\u11ab\u110b\u1173\u11ab \u110b\u1175\u11af\u1107\u1161\u11ab \u1100\u1175\u110c\u116e\u11ab)."
+    },
+    {
+      "label": "DTI = \uc5f0\uac04 \uc6d0\ub9ac\uae08 \uc0c1\ud658\uc561 / \uc5f0\uc18c\ub4dd",
+      "file_type": "rationale",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L84",
+      "id": "hca_hca_loan_eval_rationale_84",
+      "community": 2,
+      "norm_label": "dti = \u110b\u1167\u11ab\u1100\u1161\u11ab \u110b\u116f\u11ab\u1105\u1175\u1100\u1173\u11b7 \u1109\u1161\u11bc\u1112\u116a\u11ab\u110b\u1162\u11a8 / \u110b\u1167\u11ab\u1109\u1169\u1103\u1173\u11a8"
+    },
+    {
+      "label": "\uc2b9\uc778 \uc0c1\ud0dc \uacb0\uc815. DTI \ucd08\uacfc \uc2dc \uac70\uc808, 4\ub4f1\uae09\uc740 \uc870\uac74\ubd80.",
+      "file_type": "rationale",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L95",
+      "id": "hca_hca_loan_eval_rationale_95",
+      "community": 4,
+      "norm_label": "\u1109\u1173\u11bc\u110b\u1175\u11ab \u1109\u1161\u11bc\u1110\u1162 \u1100\u1167\u11af\u110c\u1165\u11bc. dti \u110e\u1169\u1100\u116a \u1109\u1175 \u1100\u1165\u110c\u1165\u11af, 4\u1103\u1173\u11bc\u1100\u1173\u11b8\u110b\u1173\u11ab \u110c\u1169\u1100\u1165\u11ab\u1107\u116e."
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "hca_hca_loan_eval_creditgrade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "hca_hca_loan_eval_approvalstatus",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "hca_hca_loan_eval_loanapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "hca_hca_loan_eval_evaluationresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "hca_hca_loan_eval_calculate_credit_grade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "hca_hca_loan_eval_get_dti_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "hca_hca_loan_eval_calculate_dti",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L90",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "hca_hca_loan_eval_determine_approval",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "hca_loan_eval_py",
+      "target": "hca_hca_loan_eval_loanevaluationservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_rationale_1",
+      "target": "hca_loan_eval_py",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_creditgrade",
+      "target": "enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_approvalstatus",
+      "target": "enum",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_loanevaluationservice_evaluate",
+      "target": "hca_hca_loan_eval_evaluationresult",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L112",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_loanevaluationservice_evaluate",
+      "target": "hca_hca_loan_eval_calculate_credit_grade",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_loanevaluationservice_evaluate",
+      "target": "hca_hca_loan_eval_get_dti_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_rationale_59",
+      "target": "hca_hca_loan_eval_get_dti_limit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_loanevaluationservice_evaluate",
+      "target": "hca_hca_loan_eval_calculate_dti",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L84",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_rationale_84",
+      "target": "hca_hca_loan_eval_calculate_dti",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_loanevaluationservice_evaluate",
+      "target": "hca_hca_loan_eval_determine_approval",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_rationale_95",
+      "target": "hca_hca_loan_eval_determine_approval",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "hca_loan_eval.py",
+      "source_location": "L111",
+      "weight": 1.0,
+      "source": "hca_hca_loan_eval_loanevaluationservice",
+      "target": "hca_hca_loan_eval_loanevaluationservice_evaluate",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

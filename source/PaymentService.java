@@ -1,0 +1,1 @@
+public class PaymentService { public void process() { double amt = 100.0; } }

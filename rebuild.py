@@ -26,8 +26,8 @@ def trigger_rebuild():
 
 
 @router.post("/upload")
-def upload_and_update(file: UploadFile = File(...), project_id: str = "default"):
-    source_dir = Path(config.SOURCE_DIR) / project_id
+def upload_and_update(file: UploadFile = File(...)):
+    source_dir = Path(config.SOURCE_DIR)
     source_dir.mkdir(parents=True, exist_ok=True)
     dest = source_dir / file.filename
 
@@ -35,7 +35,7 @@ def upload_and_update(file: UploadFile = File(...), project_id: str = "default")
         f.write(file.file.read())
 
     result = subprocess.run(
-        ["graphify", "update", str(source_dir)],
+        ["graphify", str(source_dir), "--update", "--no-viz"],
         capture_output=True,
         text=True,
         cwd="/app",
@@ -43,19 +43,10 @@ def upload_and_update(file: UploadFile = File(...), project_id: str = "default")
     if result.returncode != 0:
         raise HTTPException(status_code=500, detail=result.stderr[:500])
 
-    generated_json = source_dir / "graphify-out" / "graph.json"
-    if not generated_json.exists():
+    graph_json = Path(config.GRAPH_JSON_PATH)
+    if not graph_json.exists():
         raise HTTPException(status_code=500, detail="graph.json not generated")
 
-    dest_graph = Path(config.GRAPH_JSON_PATH).parent / project_id / "graph.json"
-    dest_graph.parent.mkdir(parents=True, exist_ok=True)
-    dest_graph.write_bytes(generated_json.read_bytes())
-
-    generated_html = source_dir / "graphify-out" / "graph.html"
-    if generated_html.exists():
-        dest_html = dest_graph.parent / "graph.html"
-        dest_html.write_bytes(generated_html.read_bytes())
-
-    graph_queries.init(str(dest_graph), project_id)
-    stats = graph_queries.graph_stats(project_id)
-    return {"status": "ok", "file": file.filename, "project_id": project_id, "nodes": stats["nodes"], "edges": stats["edges"]}
+    graph_queries.init(config.GRAPH_JSON_PATH)
+    stats = graph_queries.graph_stats()
+    return {"status": "ok", "file": file.filename, "nodes": stats["nodes"], "edges": stats["edges"]}

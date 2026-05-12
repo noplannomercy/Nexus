@@ -9,7 +9,7 @@ from starlette.responses import Response
 from starlette.routing import Mount, Route
 
 import config
-import core.age_queries as age_queries
+import core.graph_queries as age_queries
 
 mcp_server = Server("nexus")
 
@@ -149,7 +149,7 @@ def build_starlette_app() -> Starlette:
 
 
 def main() -> None:
-    age_queries.init(config.AGE_DSN, config.AGE_GRAPH)
+    age_queries.init(config.GRAPH_JSON_PATH)
     app = build_starlette_app()
     uvicorn.run(app, host="0.0.0.0", port=config.MCP_PORT)
 

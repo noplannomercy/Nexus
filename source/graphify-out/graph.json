@@ -1,0 +1,1335 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "ingest.py",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L1",
+      "id": "ingest_py",
+      "community": 2,
+      "norm_label": "ingest.py"
+    },
+    {
+      "label": "classify_file()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L12",
+      "id": "source_ingest_classify_file",
+      "community": 2,
+      "norm_label": "classify_file()"
+    },
+    {
+      "label": "ForgeClient",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L26",
+      "id": "source_ingest_forgeclient",
+      "community": 4,
+      "norm_label": "forgeclient"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L27",
+      "id": "source_ingest_forgeclient_init",
+      "community": 4,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".convert()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L34",
+      "id": "source_ingest_forgeclient_convert",
+      "community": 4,
+      "norm_label": ".convert()"
+    },
+    {
+      "label": ".get_job()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L43",
+      "id": "source_ingest_forgeclient_get_job",
+      "community": 4,
+      "norm_label": ".get_job()"
+    },
+    {
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L48",
+      "id": "source_ingest_forgeclient_close",
+      "community": 4,
+      "norm_label": ".close()"
+    },
+    {
+      "label": "CitadelClient",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L52",
+      "id": "source_ingest_citadelclient",
+      "community": 6,
+      "norm_label": "citadelclient"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L53",
+      "id": "source_ingest_citadelclient_init",
+      "community": 6,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".submit()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L63",
+      "id": "source_ingest_citadelclient_submit",
+      "community": 6,
+      "norm_label": ".submit()"
+    },
+    {
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L76",
+      "id": "source_ingest_citadelclient_close",
+      "community": 6,
+      "norm_label": ".close()"
+    },
+    {
+      "label": "NexusClient",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L80",
+      "id": "source_ingest_nexusclient",
+      "community": 5,
+      "norm_label": "nexusclient"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L81",
+      "id": "source_ingest_nexusclient_init",
+      "community": 5,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".rebuild()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L91",
+      "id": "source_ingest_nexusclient_rebuild",
+      "community": 5,
+      "norm_label": ".rebuild()"
+    },
+    {
+      "label": ".upload()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L96",
+      "id": "source_ingest_nexusclient_upload",
+      "community": 5,
+      "norm_label": ".upload()"
+    },
+    {
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L104",
+      "id": "source_ingest_nexusclient_close",
+      "community": 5,
+      "norm_label": ".close()"
+    },
+    {
+      "label": "LightRAGClient",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L108",
+      "id": "source_ingest_lightragclient",
+      "community": 2,
+      "norm_label": "lightragclient"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L109",
+      "id": "source_ingest_lightragclient_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".ingest_text()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L119",
+      "id": "source_ingest_lightragclient_ingest_text",
+      "community": 2,
+      "norm_label": ".ingest_text()"
+    },
+    {
+      "label": ".close()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L127",
+      "id": "source_ingest_lightragclient_close",
+      "community": 2,
+      "norm_label": ".close()"
+    },
+    {
+      "label": "advance_pipeline()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L131",
+      "id": "source_ingest_advance_pipeline",
+      "community": 2,
+      "norm_label": "advance_pipeline()"
+    },
+    {
+      "label": "dispatch_code_file()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L179",
+      "id": "source_ingest_dispatch_code_file",
+      "community": 2,
+      "norm_label": "dispatch_code_file()"
+    },
+    {
+      "label": "dispatch_text_doc()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L190",
+      "id": "source_ingest_dispatch_text_doc",
+      "community": 2,
+      "norm_label": "dispatch_text_doc()"
+    },
+    {
+      "label": "_maybe_close_job()",
+      "file_type": "code",
+      "source_file": "ingest.py",
+      "source_location": "L205",
+      "id": "source_ingest_maybe_close_job",
+      "community": 2,
+      "norm_label": "_maybe_close_job()"
+    },
+    {
+      "label": "PaymentService.java",
+      "file_type": "code",
+      "source_file": "PaymentService.java",
+      "source_location": "L1",
+      "id": "paymentservice_java",
+      "community": 7,
+      "norm_label": "paymentservice.java"
+    },
+    {
+      "label": "PaymentService",
+      "file_type": "code",
+      "source_file": "PaymentService.java",
+      "source_location": "L1",
+      "id": "source_paymentservice_paymentservice",
+      "community": 7,
+      "norm_label": "paymentservice"
+    },
+    {
+      "label": ".process()",
+      "file_type": "code",
+      "source_file": "PaymentService.java",
+      "source_location": "L1",
+      "id": "source_paymentservice_paymentservice_process",
+      "community": 7,
+      "norm_label": ".process()"
+    },
+    {
+      "label": "job_store.py",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L1",
+      "id": "job_store_py",
+      "community": 0,
+      "norm_label": "job_store.py"
+    },
+    {
+      "label": "_now()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L6",
+      "id": "source_job_store_now",
+      "community": 0,
+      "norm_label": "_now()"
+    },
+    {
+      "label": "InMemoryJobStore",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L9",
+      "id": "source_job_store_inmemoryjobstore",
+      "community": 0,
+      "norm_label": "inmemoryjobstore"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L10",
+      "id": "source_job_store_inmemoryjobstore_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".create_job()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L14",
+      "id": "source_job_store_inmemoryjobstore_create_job",
+      "community": 0,
+      "norm_label": ".create_job()"
+    },
+    {
+      "label": ".get_job()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L27",
+      "id": "source_job_store_inmemoryjobstore_get_job",
+      "community": 0,
+      "norm_label": ".get_job()"
+    },
+    {
+      "label": ".update_job()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L30",
+      "id": "source_job_store_inmemoryjobstore_update_job",
+      "community": 0,
+      "norm_label": ".update_job()"
+    },
+    {
+      "label": ".create_file()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L37",
+      "id": "source_job_store_inmemoryjobstore_create_file",
+      "community": 0,
+      "norm_label": ".create_file()"
+    },
+    {
+      "label": ".get_file()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L48",
+      "id": "source_job_store_inmemoryjobstore_get_file",
+      "community": 0,
+      "norm_label": ".get_file()"
+    },
+    {
+      "label": ".get_file_by_external_job_id()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L51",
+      "id": "source_job_store_inmemoryjobstore_get_file_by_external_job_id",
+      "community": 0,
+      "norm_label": ".get_file_by_external_job_id()"
+    },
+    {
+      "label": ".get_files_by_external_job_id()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L57",
+      "id": "source_job_store_inmemoryjobstore_get_files_by_external_job_id",
+      "community": 0,
+      "norm_label": ".get_files_by_external_job_id()"
+    },
+    {
+      "label": ".update_file()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L60",
+      "id": "source_job_store_inmemoryjobstore_update_file",
+      "community": 0,
+      "norm_label": ".update_file()"
+    },
+    {
+      "label": ".list_files_for_job()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L67",
+      "id": "source_job_store_inmemoryjobstore_list_files_for_job",
+      "community": 0,
+      "norm_label": ".list_files_for_job()"
+    },
+    {
+      "label": ".list_jobs()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L70",
+      "id": "source_job_store_inmemoryjobstore_list_jobs",
+      "community": 0,
+      "norm_label": ".list_jobs()"
+    },
+    {
+      "label": ".get_stats()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L81",
+      "id": "source_job_store_inmemoryjobstore_get_stats",
+      "community": 0,
+      "norm_label": ".get_stats()"
+    },
+    {
+      "label": "PostgresJobStore",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L103",
+      "id": "source_job_store_postgresjobstore",
+      "community": 1,
+      "norm_label": "postgresjobstore"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L104",
+      "id": "source_job_store_postgresjobstore_init",
+      "community": 1,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".create_job()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L107",
+      "id": "source_job_store_postgresjobstore_create_job",
+      "community": 1,
+      "norm_label": ".create_job()"
+    },
+    {
+      "label": ".get_job()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L115",
+      "id": "source_job_store_postgresjobstore_get_job",
+      "community": 1,
+      "norm_label": ".get_job()"
+    },
+    {
+      "label": ".update_job()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L120",
+      "id": "source_job_store_postgresjobstore_update_job",
+      "community": 1,
+      "norm_label": ".update_job()"
+    },
+    {
+      "label": ".create_file()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L133",
+      "id": "source_job_store_postgresjobstore_create_file",
+      "community": 1,
+      "norm_label": ".create_file()"
+    },
+    {
+      "label": ".get_file()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L141",
+      "id": "source_job_store_postgresjobstore_get_file",
+      "community": 1,
+      "norm_label": ".get_file()"
+    },
+    {
+      "label": ".get_file_by_external_job_id()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L146",
+      "id": "source_job_store_postgresjobstore_get_file_by_external_job_id",
+      "community": 1,
+      "norm_label": ".get_file_by_external_job_id()"
+    },
+    {
+      "label": ".get_files_by_external_job_id()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L151",
+      "id": "source_job_store_postgresjobstore_get_files_by_external_job_id",
+      "community": 1,
+      "norm_label": ".get_files_by_external_job_id()"
+    },
+    {
+      "label": ".update_file()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L156",
+      "id": "source_job_store_postgresjobstore_update_file",
+      "community": 1,
+      "norm_label": ".update_file()"
+    },
+    {
+      "label": ".list_files_for_job()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L169",
+      "id": "source_job_store_postgresjobstore_list_files_for_job",
+      "community": 1,
+      "norm_label": ".list_files_for_job()"
+    },
+    {
+      "label": ".list_jobs()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L174",
+      "id": "source_job_store_postgresjobstore_list_jobs",
+      "community": 1,
+      "norm_label": ".list_jobs()"
+    },
+    {
+      "label": ".get_stats()",
+      "file_type": "code",
+      "source_file": "job_store.py",
+      "source_location": "L192",
+      "id": "source_job_store_postgresjobstore_get_stats",
+      "community": 1,
+      "norm_label": ".get_stats()"
+    },
+    {
+      "label": "app.py",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L1",
+      "id": "app_py",
+      "community": 8,
+      "norm_label": "app.py"
+    },
+    {
+      "label": "_safe_process()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L19",
+      "id": "source_app_safe_process",
+      "community": 8,
+      "norm_label": "_safe_process()"
+    },
+    {
+      "label": "create_app()",
+      "file_type": "code",
+      "source_file": "app.py",
+      "source_location": "L26",
+      "id": "source_app_create_app",
+      "community": 8,
+      "norm_label": "create_app()"
+    },
+    {
+      "label": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "file_type": "document",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L1",
+      "id": "hcs_code2rule_poc2_execsummary_v1_1_md",
+      "community": 3,
+      "norm_label": "hcs_code2rule_poc2_execsummary_v1.1.md"
+    },
+    {
+      "label": "HCS Code2Rule PoC2 \u2014 \ucd94\uc9c4 \ubc29\ud5a5 \uc694\uc57d",
+      "file_type": "document",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L1",
+      "id": "source_hcs_code2rule_poc2_execsummary_v1_1_hcs_code2rule_poc2",
+      "community": 3,
+      "norm_label": "hcs code2rule poc2 \u2014 \u110e\u116e\u110c\u1175\u11ab \u1107\u1161\u11bc\u1112\u1163\u11bc \u110b\u116d\u110b\u1163\u11a8"
+    },
+    {
+      "label": "1. \uacfc\uc81c \ud604\ud669",
+      "file_type": "document",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L10",
+      "id": "source_hcs_code2rule_poc2_execsummary_v1_1_1",
+      "community": 3,
+      "norm_label": "1. \u1100\u116a\u110c\u1166 \u1112\u1167\u11ab\u1112\u116a\u11bc"
+    },
+    {
+      "label": "2. \uc81c\uc548\ud558\ub294 \ubc29\ud5a5",
+      "file_type": "document",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L16",
+      "id": "source_hcs_code2rule_poc2_execsummary_v1_1_2",
+      "community": 3,
+      "norm_label": "2. \u110c\u1166\u110b\u1161\u11ab\u1112\u1161\u1102\u1173\u11ab \u1107\u1161\u11bc\u1112\u1163\u11bc"
+    },
+    {
+      "label": "code:block1 (\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510)",
+      "file_type": "document",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L18",
+      "id": "source_hcs_code2rule_poc2_execsummary_v1_1_codeblock_1",
+      "community": 3,
+      "norm_label": "code:block1 (\u250c\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2510)"
+    },
+    {
+      "label": "3. HCA Code2Rule\uacfc\uc758 \uad00\uacc4",
+      "file_type": "document",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L41",
+      "id": "source_hcs_code2rule_poc2_execsummary_v1_1_3_hca_code2rule",
+      "community": 3,
+      "norm_label": "3. hca code2rule\u1100\u116a\u110b\u1174 \u1100\u116a\u11ab\u1100\u1168"
+    },
+    {
+      "label": "4. \ud655\uc815\uc774 \ud544\uc694\ud55c \uc0ac\ud56d (HCS \uce21 \uacb0\uc815)",
+      "file_type": "document",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L53",
+      "id": "source_hcs_code2rule_poc2_execsummary_v1_1_4_hcs",
+      "community": 3,
+      "norm_label": "4. \u1112\u116a\u11a8\u110c\u1165\u11bc\u110b\u1175 \u1111\u1175\u11af\u110b\u116d\u1112\u1161\u11ab \u1109\u1161\u1112\u1161\u11bc (hcs \u110e\u1173\u11a8 \u1100\u1167\u11af\u110c\u1165\u11bc)"
+    },
+    {
+      "label": "5. \ub2e4\uc74c \ub2e8\uacc4",
+      "file_type": "document",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L67",
+      "id": "source_hcs_code2rule_poc2_execsummary_v1_1_5",
+      "community": 3,
+      "norm_label": "5. \u1103\u1161\u110b\u1173\u11b7 \u1103\u1161\u11ab\u1100\u1168"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ingest_py",
+      "target": "source_ingest_classify_file"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ingest_py",
+      "target": "source_ingest_forgeclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ingest_py",
+      "target": "source_ingest_citadelclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ingest_py",
+      "target": "source_ingest_nexusclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L108",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ingest_py",
+      "target": "source_ingest_lightragclient"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L131",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ingest_py",
+      "target": "source_ingest_advance_pipeline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L179",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ingest_py",
+      "target": "source_ingest_dispatch_code_file"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L190",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ingest_py",
+      "target": "source_ingest_dispatch_text_doc"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L205",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "ingest_py",
+      "target": "source_ingest_maybe_close_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_forgeclient",
+      "target": "source_ingest_forgeclient_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_forgeclient",
+      "target": "source_ingest_forgeclient_convert"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_forgeclient",
+      "target": "source_ingest_forgeclient_get_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_forgeclient",
+      "target": "source_ingest_forgeclient_close"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_citadelclient",
+      "target": "source_ingest_citadelclient_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L63",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_citadelclient",
+      "target": "source_ingest_citadelclient_submit"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_citadelclient",
+      "target": "source_ingest_citadelclient_close"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_nexusclient",
+      "target": "source_ingest_nexusclient_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L91",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_nexusclient",
+      "target": "source_ingest_nexusclient_rebuild"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L96",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_nexusclient",
+      "target": "source_ingest_nexusclient_upload"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_nexusclient",
+      "target": "source_ingest_nexusclient_close"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L181",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_dispatch_code_file",
+      "target": "source_ingest_nexusclient_upload"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L109",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_lightragclient",
+      "target": "source_ingest_lightragclient_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L119",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_lightragclient",
+      "target": "source_ingest_lightragclient_ingest_text"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L127",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_lightragclient",
+      "target": "source_ingest_lightragclient_close"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L159",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_advance_pipeline",
+      "target": "source_ingest_lightragclient_ingest_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L193",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_dispatch_text_doc",
+      "target": "source_ingest_lightragclient_ingest_text"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L176",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_advance_pipeline",
+      "target": "source_ingest_maybe_close_job"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L187",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_dispatch_code_file",
+      "target": "source_ingest_maybe_close_job"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "ingest.py",
+      "source_location": "L202",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_ingest_dispatch_text_doc",
+      "target": "source_ingest_maybe_close_job"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "PaymentService.java",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "paymentservice_java",
+      "target": "source_paymentservice_paymentservice"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "PaymentService.java",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_paymentservice_paymentservice",
+      "target": "source_paymentservice_paymentservice_process"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "job_store_py",
+      "target": "source_job_store_now"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "job_store_py",
+      "target": "source_job_store_inmemoryjobstore"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "job_store_py",
+      "target": "source_job_store_postgresjobstore"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore_create_job",
+      "target": "source_job_store_now"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore_create_file",
+      "target": "source_job_store_now"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_create_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_get_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_update_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_create_file"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_get_file"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_get_file_by_external_job_id"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_get_files_by_external_job_id"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_update_file"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_list_files_for_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_list_jobs"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L81",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_inmemoryjobstore",
+      "target": "source_job_store_inmemoryjobstore_get_stats"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app.py",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "source_app_create_app",
+      "target": "source_job_store_inmemoryjobstore"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L104",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L107",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_create_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_get_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L120",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_update_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_create_file"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_get_file"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L146",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_get_file_by_external_job_id"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L151",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_get_files_by_external_job_id"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L156",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_update_file"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L169",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_list_files_for_job"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L174",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_list_jobs"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L192",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore",
+      "target": "source_job_store_postgresjobstore_get_stats"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L122",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore_update_job",
+      "target": "source_job_store_postgresjobstore_get_job"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "job_store.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_job_store_postgresjobstore_update_file",
+      "target": "source_job_store_postgresjobstore_get_file"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_py",
+      "target": "source_app_safe_process"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app.py",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_py",
+      "target": "source_app_create_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "hcs_code2rule_poc2_execsummary_v1_1_md",
+      "target": "source_hcs_code2rule_poc2_execsummary_v1_1_hcs_code2rule_poc2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_hcs_code2rule_poc2_execsummary_v1_1_hcs_code2rule_poc2",
+      "target": "source_hcs_code2rule_poc2_execsummary_v1_1_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_hcs_code2rule_poc2_execsummary_v1_1_hcs_code2rule_poc2",
+      "target": "source_hcs_code2rule_poc2_execsummary_v1_1_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_hcs_code2rule_poc2_execsummary_v1_1_hcs_code2rule_poc2",
+      "target": "source_hcs_code2rule_poc2_execsummary_v1_1_3_hca_code2rule"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_hcs_code2rule_poc2_execsummary_v1_1_hcs_code2rule_poc2",
+      "target": "source_hcs_code2rule_poc2_execsummary_v1_1_4_hcs"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_hcs_code2rule_poc2_execsummary_v1_1_hcs_code2rule_poc2",
+      "target": "source_hcs_code2rule_poc2_execsummary_v1_1_5"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "HCS_Code2Rule_PoC2_ExecSummary_v1.1.md",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "source_hcs_code2rule_poc2_execsummary_v1_1_2",
+      "target": "source_hcs_code2rule_poc2_execsummary_v1_1_codeblock_1"
+    }
+  ],
+  "hyperedges": []
+}

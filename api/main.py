@@ -4,7 +4,7 @@ from fastapi.security import APIKeyHeader
 from starlette.responses import JSONResponse
 
 import config
-import core.age_queries as age_queries
+import core.graph_queries as graph_queries
 
 rebuild_flag: dict = {"running": False}
 
@@ -20,7 +20,7 @@ def verify_api_key(key: str = Security(_api_key_header)) -> None:
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    age_queries.init(config.AGE_DSN, config.AGE_GRAPH)
+    graph_queries.init(config.GRAPH_JSON_PATH)
     yield
 
 
